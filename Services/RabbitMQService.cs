@@ -29,7 +29,7 @@ namespace Services
             //ConnectionFactory nesnesi oluşturup uri özelliğine rabbitmq urimizi atıyoruz.
             ConnectionFactory connectionFactory = new ConnectionFactory()
             {
-                Uri = new Uri("amqps://xujyfxwp:sxpPfqM5ISy5H_khs2zUD-vt5smb4Cmp@beaver.rmq.cloudamqp.com/xujyfxwp")
+                Uri = new Uri("")
             };
 
             //CreateConnection metotu ile oluşturduğumuz bağlantıyı connection değişkenimize atıyoruz.
